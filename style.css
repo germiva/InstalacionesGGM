@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Oswald', sans-serif ;
+}
+
+body{
+    background: url(imagenes/History\ GGM.png);
+    background-color: #ffffffbf;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(1, 92, 1);
+}
+.navegacion{
+    position: fixed; 
+    top: 0;
+    left: 10%; 
+    background-color: #0a4e01;
+    padding: 10px; 
+    z-index: 1000;
+    width: 1600px;
+}
+
+
+.interior{
+    max-width: 100%;
+    padding: 0 10px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 5px 20px 0;
+    background: #258607;
+}
+.logo img{
+    height: 80px;
+    position: fixed;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+.navegacion{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    z-index: 1000;
+    min-width: 300px;
+}
+.navegacion ul{
+    list-style: none;
+    padding: 0 10px;
+    min-width: 300px;
+}
+.navegacion ul li{
+    display: inline-block;
+    position: relative;
+    transition: .3s linear;
+    z-index: 1000;
+    
+}
+.navegacion ul li:hover{
+    transform: scale(1.1);
+}
+.navegacion ul li a{
+    color: #f7f0f0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+    transition: .3s linear;
+}
+.navegacion ul li a:hover{
+    color: #40ee0b;
+    transform: scale(1.1);
+}
+.navegacion ul li:hover .hijos{
+    display: block;
+}
+.navegacion .submenu .hijos{
+    display: none;
+    background: #258607;
+    position: absolute;
+    width: 100%;
+}
+.navegacion .submenu .hijos li{
+    display: block;
+    overflow: hidden;
+    border-bottom: none;
+}
+.navegacion .submenu .hijos li a{
+    display: block;
+}
+.seccion-1, .seccion-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    padding: 70px; 
+    background:linear-gradient(rgba(255, 255, 255, 0.7),rgba(253, 249, 249, 0.905)),url(imagenes/History\ GGM.png) no-repeat center/cover ;
+  }
+  
+  .texto-seccion {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .collage-seccion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .imagen-1, .imagen-2, .imagen-3, .imagen-4 {
+    width: 40%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .imagen-1 img, .imagen-2 img, .imagen-3 img, .imagen-4 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .seccion-2 .collage-seccion {
+    justify-content: space-around;
+  }
+  
+  .seccion-2 .imagen-1, .seccion-2 .imagen-2, .seccion-2 .imagen-3 {
+    width: 40%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .footer {
+    background-color: #126e00; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center; 
+    font-size: 12px; 
+  }
+  
+  .social-media {
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .social-media li {
+    margin: 0 5px; 
+  }
+  
+  .social-media a {
+    color: #fff; 
+    text-decoration: none; 
+  }
+  
+  .social-media a:hover {
+    color: #ccc; 
+  }
